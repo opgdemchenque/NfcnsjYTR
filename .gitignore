@@ -5,7 +5,6 @@
 .cache
 
 # Windows Stuff
-*.vcxproj
 *.sln
 *.filters
 .vs
@@ -34,7 +33,6 @@ enc_temp_folder/
 *.aps
 UpgradeLog.htm
 generated_code_*
-*.dll
 *.exe
 *.lib
 
@@ -43,7 +41,6 @@ generated_code_*
 *.o
 *.a
 *.P
-*.map
 *.so
 *.so.dbg
 manifest.txt
