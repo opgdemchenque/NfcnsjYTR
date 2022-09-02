@@ -3,15 +3,12 @@
 
 #ifdef _WIN32
 
-#define WIN32_LEAN_AND_MEAN
-
 #define NOWINRES
 #define NOSERVICE
 #define NOMCX
 #define NOIME
 #define NOCRYPT
 #define NOMETAFILE
-#define NOMINMAX
 #define MMNOSOUND
 
 #include <windows.h>
@@ -21,7 +18,6 @@
 #undef PlaySound
 #undef SetCursor
 #undef ProgressBox
-#undef RegisterClass
 #undef AddJob
 #undef GetJob
 #undef Yield
